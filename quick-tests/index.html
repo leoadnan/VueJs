@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>VueJS Tutorials</title>
+  <link href="styles.css" rel="stylesheet" />
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<!--https://github.com/iamshaunjp/vuejs-playlist/blob/lesson-5/app.js-->
+
+<body>
+  <div id="vue-app">
+    <input type="text" ref="input" />
+    <button v-on:click="readRefs">Submit</button>
+    <p>{{output}}</p>
+    <div ref="test">hello</div>
+  </div> 
+</body>
+
+<script src="app.js"></script>
+
+</html>
